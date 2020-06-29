@@ -17,5 +17,10 @@ public class User
         canvas.mouseDrag(0, 100);
         canvas.mouseDrag(0,0);
         canvas.mouseUp(0,0);
+
+        canvas.selectTool(Tools.CIRCLE);
+        canvas.mouseDown(0,0);
+        canvas.mouseDrag(100,0);
+        canvas.mouseUp(0,0);
     }
 }

@@ -6,6 +6,8 @@ public class Canvas {
     public void selectTool(Tools tool) {
         if(tool == Tools.RECTANGLE) {
             toolSelected = new Rectangle();
+        } else if(tool == Tools.CIRCLE) {
+            toolSelected = new Circle();
         }
     }
     public void mouseDown(int x, int y) {
