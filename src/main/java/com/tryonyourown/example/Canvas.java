@@ -6,7 +6,9 @@ public class Canvas {
     public void selectTool(Tools tool) {
         if(tool == Tools.RECTANGLE) {
             toolSelected = new Rectangle();
+            System.out.println("Rectangle icon highlighted on the Canvas");
         } else if(tool == Tools.CIRCLE) {
+            System.out.println("Circle icon highlighted on the Canvas");
             toolSelected = new Circle();
         }
     }
